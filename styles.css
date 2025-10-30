@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #d8eaff;
+    padding: 30px;
+}
+
+h1 { color: #005b99; } 
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-btn { background: #0077cc; color: white; }
+.delete-btn { background: red; color: white; }
+.info-btn { background: orange; color: white; } /* botón para abrir detalles */
+ul { list-style: none; padding: 0; }
+
+li {
+    background: white;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 70%;
+    text-align: left;
+}
+
+.completed span { text-decoration: line-through; color: gray; } /* marcar tarea completada */
+.detalles { display: none; margin-top: 8px; } /* contenedor de detalles oculto */
+textarea { width: 100%; height: 50px; font-size: 14px; } 
+
